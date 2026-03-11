@@ -1,0 +1,42 @@
+name: zapa
+description: "Zapa - Mobile Invoice & Receipt Management Platform"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # Networking
+  dio: ^5.3.3
+
+  # State Management (as recommended by architecture)
+  flutter_riverpod: ^2.4.3
+
+  # Local Storage for Offline Support
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Firebase
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  firebase_messaging: ^14.6.7
+
+  # UI / Helpers
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  # Code Generation
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
