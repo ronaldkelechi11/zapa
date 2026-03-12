@@ -7,6 +7,10 @@ import { BusinessModule } from './business/business.module';
 import { CustomersModule } from './customers/customers.module';
 import { InvoicesModule } from './invoices/invoices.module';
 import { ReceiptsModule } from './receipts/receipts.module';
+import { ExpensesModule } from './expenses/expenses.module';
+import { SubscriptionsModule } from './subscriptions/subscriptions.module';
+import { AnalyticsModule } from './analytics/analytics.module';
+import { PdfModule } from './pdf/pdf.module';
 
 @Module({
   imports: [
@@ -26,6 +30,10 @@ import { ReceiptsModule } from './receipts/receipts.module';
     CustomersModule,
     InvoicesModule,
     ReceiptsModule,
+    ExpensesModule,
+    SubscriptionsModule,
+    AnalyticsModule,
+    PdfModule,
   ],
   controllers: [],
   providers: [],
