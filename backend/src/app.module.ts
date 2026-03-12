@@ -5,6 +5,8 @@ import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { BusinessModule } from './business/business.module';
 import { CustomersModule } from './customers/customers.module';
+import { InvoicesModule } from './invoices/invoices.module';
+import { ReceiptsModule } from './receipts/receipts.module';
 
 @Module({
   imports: [
@@ -22,6 +24,8 @@ import { CustomersModule } from './customers/customers.module';
     UsersModule,
     BusinessModule,
     CustomersModule,
+    InvoicesModule,
+    ReceiptsModule,
   ],
   controllers: [],
   providers: [],
